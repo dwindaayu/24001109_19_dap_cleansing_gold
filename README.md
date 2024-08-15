@@ -1,7 +1,7 @@
 # 🧹 Social Media Comment Cleansing API
 
 This project focuses on cleaning and processing social media comments to improve readability by removing unnecessary characters, normalizing text, and handling slang. The API is designed to take a raw social media comment as input and return a cleaned and structured output.
-(Using Indonesian language)
+(Using Indonesian language).
 
 ---
 
