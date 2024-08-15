@@ -15,7 +15,6 @@ def clean_text(text):
     text = re.sub('user',' ',text)                                                # Remove every username
     text = re.sub('((www\.[^\s]+)|(https?://[^\s]+)|(http?://[^\s]+))',' ',text)  # Remove every URL
     text = re.sub('  +', ' ', text)                                               # Remove extra spaces
-    # text = re.sub(r'\bUSER|\b',' ',text)
     return text
 
 def remove_unicode(text):
